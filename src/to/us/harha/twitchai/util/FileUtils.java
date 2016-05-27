@@ -96,7 +96,7 @@ public class FileUtils
     public static boolean directoryExists(String directory)
     {
         // Check if the directory exists, if not, create it
-        boolean result = true;
+        boolean result = false;
         File dirTest = new File(directory);
         if (!dirTest.exists())
         {
